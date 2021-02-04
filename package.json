@@ -1,0 +1,35 @@
+{
+  "name": "day-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass resources/scss/style.scss -o public/css -w",
+    "dev": "webpack --config webpack.dev.js -w & npm run scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdijsApse/day-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdijsApse/day-manager/issues"
+  },
+  "homepage": "https://github.com/EdijsApse/day-manager#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.6",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
